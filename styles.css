@@ -61,14 +61,14 @@ header {
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
-    animation: slide-in 3s ease-out;
+    animation: slide-in 2s ease-out;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    animation: fade-in 2s ease-out;
+    animation: fade-in 4s ease-out;
     color: #e1e1e1;
 }
 
