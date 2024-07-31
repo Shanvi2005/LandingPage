@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="overlay"></div>
+            <!-- Lottie Animation -->
+            <div id="lottie-animation" class="lottie-animation"></div>
+
+            <!-- Include Lottie library -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+            <script>
+                var animation = lottie.loadAnimation({
+                    container: document.getElementById('lottie-animation'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    path: 'https://lottie.host/c5a93dbe-5bb8-47d0-9845-7910401aa157/EMfCKcu4H3.json'
+                });
+            </script>
+
+            <div class="container">
+                <h1 class="slide-in">Hello! I am <b>Shanvi</b></h1>
+                <p class="fade-in"> Developer | AI-ML Student | SWE Fellow @ Headstarter AI | Joint Executive @ Cognito
+                    |
+                    Core Member @ Hack Club IGDTUW </p>
+                <a href="#contact" class="cta-btn">Get in Touch</a>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#techstack">Tech Stack</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a dedicated and passionate software engineering enthusiast currently pursuing a Bachelor of
+                    Technology in Artificial Intelligence and Machine Learning at Indira Gandhi Delhi Technical
+                    University for Women. With a robust understanding of data structures and algorithms, I am equipped
+                    to tackle complex challenges and develop innovative solutions.
+
+                    My professional journey includes roles as a SWE fellow at Headstarter AI, Joint Executive at Cognito
+                    (CSD), Core member of Hack Club IGDTUW, and Coordinator at Taarangana. Each role has significantly
+                    contributed to my growth, enhancing my leadership, team management, and public relations skills.
+
+                    Through my work at Cognito (CSD), I lead initiatives aligned with UN Sustainable Development Goals,
+                    aiming for sustainable and inclusive economic growth. At Hack Club IGDTUW, I foster a community of
+                    passionate coders and innovators, while my role at Taarangana focuses on managing communication
+                    campaigns and event promotion.
+
+                    I am committed to leveraging my skills and experiences to create a positive impact and contribute to
+                    the advancement of technology.</p>
+            </div>
+        </section>
+        <section id="resume">
+            <div class="container">
+                <h2>Resume</h2>
+                <p>Check out my professional journey and skills. <a href="your-resume-link.pdf" target="_blank"
+                        class="btn">Resume</a></p>
+            </div>
+        </section>
+        <section id="techstack">
+            <div class="container">
+                <h2>Tech Stack</h2>
+                <div class="tech-grid">
+                    <div class="tech-item html">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="tech-item css">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="tech-item js">
+                        <i class="fab fa-js"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="tech-item react">
+                        <i class="fab fa-react"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="tech-item node">
+                        <i class="fab fa-node-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Let's get in touch!</p>
+                <div class="contact-info">
+                    <a href="mailto:shanvi200504@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shanvi/" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Shanvi2005" target="_blank" class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Shanvi. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
